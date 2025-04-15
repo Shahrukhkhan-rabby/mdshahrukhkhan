@@ -3,6 +3,7 @@ import React from "react";
 import profile from "../assets/profile.png";
 import {
   FaFacebook,
+  FaGithub,
   FaHome,
   FaLinkedin,
   FaMailBulk,
@@ -66,11 +67,21 @@ const Footer = () => {
               />
             </a>
             <a
-              href="https://x.com/shahrukh_khan71"
+              href="https://x.com/shahrukh_m607"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTwitter
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://github.com/Shahrukhkhan-rabby"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
