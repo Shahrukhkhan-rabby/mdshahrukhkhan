@@ -11,6 +11,12 @@
 # production
 /build
 
+# Ignore frontend-specific folders
+/frontend/node_modules
+/frontend/build
+/frontend/.cache
+
+
 # misc
 .DS_Store
 .env
